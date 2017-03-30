@@ -4,3 +4,12 @@
 .banner .nav a {
   @extend .nav-link;
 }
+
+.banner{
+  .nav{
+    justify-content: center;
+  }
+  .menu-main-menu-container{
+    width: 100%;
+  }
+}
