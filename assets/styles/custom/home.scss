@@ -11,7 +11,7 @@ HEADER - SECTION A
   background-attachment: fixed;
   padding-top: 10vh;
   margin-top: 0px;
-  background-position: 0px 50px;
+  background-position: 0px 100px;
 
   .main-title{
     font-weight: 800;
@@ -27,6 +27,7 @@ HEADER - SECTION A
     font-size: 17.5rem;
     line-height: 17.7rem;
     background-size: cover;
+    letter-spacing: 5px;
   }
 
   .tagline{

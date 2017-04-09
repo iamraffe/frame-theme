@@ -1,13 +1,85 @@
 .banner .nav li {
   @extend .nav-item;
+
+  &.menu-item-101, &.menu-item-102, &.menu-item-103{
+    a{
+      padding: 0.25em 0.25em 0em;
+    }
+  }
+  &.menu-item-101{
+    a{
+      padding-left: 1.75em;
+    }
+  }
+  &.menu-item-97, &.menu-item-11, &.menu-item-12{
+    a{
+      &:active, &:visited, &:focus, &:hover{
+        color: darken(white, 2.5%);
+      }
+      &:hover::before, &.active::before{
+        content: "";
+        height: 10px;
+        width: 10px;
+        background-color: white;
+        border-radius: 50%;
+        webkit-border-radius: 50%;
+        position: absolute;
+        bottom: -2.5px;
+        left: 45%;
+      }
+    }
+  }
 }
+
+.banner .nav li.current_page_item{
+  a{
+    &::before{
+      content: "";
+      height: 10px;
+      width: 10px;
+      background-color: white;
+      border-radius: 50%;
+      webkit-border-radius: 50%;
+      position: absolute;
+      bottom: -2.5px;
+      left: 45%;
+    }
+  }
+}
+
 .banner .nav a {
   @extend .nav-link;
+  padding: 0.5em 1.75em 0.5em;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.25rem;
+  letter-spacing: 0.25px;
+  position: relative;
+
+
+
+  img{
+    height: 35px;
+  }
 }
 
 .banner{
+  .navbar{
+    height: 100px;
+    background-color: #FE1211;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+
+    .navbar-brand{
+      img{
+        height: 77.5px;
+      }
+    }
+  }
+
   .nav{
-    justify-content: center;
+    justify-content: flex-end;
   }
   .menu-main-menu-container{
     width: 100%;
