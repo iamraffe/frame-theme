@@ -1,0 +1,28 @@
+footer.main-footer{
+  background: white;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+  .in-house-copy-wrapper{
+    img{
+      height: 45px;
+    }
+
+    .copy{
+      margin-left: 10px;
+      font-size: 0.75rem;
+      color: #003CEE;
+      cursor: pointer;
+    }
+  }
+
+  .app-store-download-wrapper{
+    img{
+      height: 50px;
+      float: right;
+      cursor: pointer;
+    }
+  }
+}
