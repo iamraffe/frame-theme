@@ -6,8 +6,16 @@ footer.main-footer{
   padding-bottom: 5%;
 
   .in-house-copy-wrapper{
+    @media (max-width: 576px){
+      display: block;
+      margin: 15px auto;
+      width: auto;
+    }
     img{
       height: 45px;
+      @media (max-width: 576px){
+        height: 40px;
+      }
     }
 
     .copy{
@@ -23,6 +31,30 @@ footer.main-footer{
       height: 50px;
       float: right;
       cursor: pointer;
+
+      @media (max-width: 576px){
+        display: block;
+        margin: 15px auto;
+        float: none;
+      }
+    }
+  }
+
+  @media (max-width: 576px){
+    &.not-mobile{
+      display: none;
+    }
+    &.mobile{
+      margin-top: 35px;
+      display: block;
+    }
+  }
+  @media (min-width: 577px){
+    &.not-mobile{
+      display: block;
+    }
+    &.mobile{
+      display: none;
     }
   }
 }

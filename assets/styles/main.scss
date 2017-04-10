@@ -19,6 +19,29 @@
 @import "custom/home";
 @import "custom/about";
 
+
+// html {
+//   font-size: 14px;
+// }
+
+// @include media-breakpoint-up(sm) {
+//   html {
+//     font-size: 16px;
+//   }
+// }
+
+// @include media-breakpoint-up(md) {
+//   html {
+//     font-size: 20px;
+//   }
+// }
+
+// @include media-breakpoint-up(lg) {
+//   html {
+//     font-size: 28px;
+//   }
+// }
+
 body::-webkit-scrollbar {
   width: 7.5px;
 }

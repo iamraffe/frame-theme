@@ -1,8 +1,11 @@
 body.home{
-  background: url('https://lh3.googleusercontent.com/k37VBQbswBw7csPGcduLwlo4x7kA6DWL3mudp300MQCcT_YH3wRK6ToTfzenrFhnsqOQI0zLgv_HEQw=w3352-h1860-rw');
+  background: url('https://www.tryfra.me/wp-content/uploads/2017/04/Frame-WebsiteUIV3-1.jpg');
   background-size: contain;
   background-attachment: fixed;
   background-position: 0px 150px;
+  @media (max-width: 768px){
+    background: transparent;
+  }
 
 
   /*
@@ -11,7 +14,7 @@ body.home{
 
   */
   .section-a{
-    height: 70vh;
+    min-height: 70vh;
     padding-top: 10vh;
     margin-top: 0px;
 
@@ -19,7 +22,7 @@ body.home{
       font-weight: 800;
       color: transparent;
       // font-size:120px;
-      background: url("https://lh5.googleusercontent.com/GDYMTL3wySaTvV4DQLAksSVxTCSWR08XVo4All9erK-G1UcaEkNuL-wVveMoyTeur1aH8zx3V75Bgsg=w3352-h1860") no-repeat;
+      background: url("https://www.tryfra.me/wp-content/uploads/2017/04/ezgif-3-e957cc6609-1.gif") no-repeat;
       background-position: 40% 50%;
       -webkit-background-clip: text;
       position:relative;
@@ -30,10 +33,31 @@ body.home{
       line-height: 17.7rem;
       background-size: cover;
       letter-spacing: 5px;
+
+      @media (max-width: 576px){
+        font-size: 4rem;
+        background: transparent;
+        color: #FE1211;
+        line-height: 4.5rem;
+      }
+      @media (max-width: 768px){
+        font-size: 4.5rem;
+        background: transparent;
+        color: #FE1211;
+        line-height: 4.5rem;
+      }
+      // @media (max-width: 768px){
+      //   font-size: 2rem;
+      //   background: transparent;
+      //   color: #FE1211;
+      // }
     }
 
     .tagline{
-      margin-top: -100px;
+
+      // @media (min-width: 769px){
+      //   margin-top: -100px;
+      // }
       h1{
         font-weight: bold;
         font-size: 1.75rem;
@@ -56,7 +80,9 @@ body.home{
         border-radius: 15px;
         padding-top: 15px;
         padding-bottom: 15px;
-        margin-top: 2.5vh;
+        // margin-top: 2.5vh;
+        margin: 25px auto;
+        display: block;
 
         &:hover, &:active{
           background-color: darken(#FE1211, 2.5%);
@@ -77,6 +103,7 @@ body.home{
 
     .wmle_item{
       background: white;
+      cursor: default;
     }
     .wmle_post_meta{
       display: none;
@@ -84,6 +111,23 @@ body.home{
     .masonry-wrapper{
       max-height: 450px;
       overflow: auto;
+      position: relative;
+
+      @media (max-width: 768px){
+        margin-top: 35px;
+        max-height: 250px;
+      }
+
+
+      .masonry-overlay{
+        background: transparent;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 9;
+      }
 
       &::-webkit-scrollbar {
         width: 7.5px;

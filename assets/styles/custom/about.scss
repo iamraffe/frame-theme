@@ -1,4 +1,10 @@
 body.about{
+  .content{
+    @media (max-width: 576px){
+      padding-left: 2.5%;
+      padding-right: 2.5%;
+    }
+  }
 
   /*
 
@@ -6,18 +12,29 @@ body.about{
 
   */
   .section-a{
-    height: 50vh;
+    min-height: 50vh;
     padding-top: 10vh;
     margin-top: 0px;
-    background: url('https://lh4.googleusercontent.com/3XVhnoERHLC2UIKuDcEq6Tpcr1TTPwlRWv5YUaF-ZyS_cRPlsQR19HsIPyUjf7num8mG2ko7uskH5xs=w3352-h1860-rw');
+    background: url('https://www.tryfra.me/wp-content/uploads/2017/04/about-bg.jpg');
     background-size: contain;
     background-attachment: fixed;
     background-position: 0px 150px;
+    margin-bottom: 12.5vh;
+
+    @media (max-width: 768px){
+      background-size: 125%;
+      min-height: 25vh;
+    }
+
 
     .main-title{
       font-size: 5.5rem;
       font-weight: bold;
       letter-spacing: -2.5px;
+
+      @media (max-width: 768px){
+        font-size: 3rem;
+      }
     }
   }
 
@@ -40,18 +57,53 @@ body.about{
         height: 100px;
         margin-bottom: 35px;
         margin-top: 50px;
+
+        @media (max-width: 768px){
+          height: 75px;
+          margin-bottom: 35px;
+          margin-top: 0;
+        }
+
       }
       h1{
         font-size: 3rem;
         margin-bottom: 15px;
+        @media (max-width: 768px){
+          font-size: 2rem;
+        }
       }
       p{
         font-size: 1.25rem;
+        @media (max-width: 768px){
+          font-size: 1rem;
+        }
       }
     }
 
     img.iphone-preview{
       width: 325px;
+      max-width: 100%;
+      @media (max-width: 576px){
+        float: none;
+        display: block; margin: 25px auto;
+      }
+      @media (max-width: 576px){
+        &.not-mobile{
+          display: none;
+        }
+        &.mobile{
+          // margin-top: 35px;
+          display: block;
+        }
+      }
+      @media (min-width: 577px){
+        &.not-mobile{
+          display: block;
+        }
+        &.mobile{
+          display: none;
+        }
+      }
     }
   }
 
@@ -64,12 +116,16 @@ body.about{
     margin-top: 50px;
 
     header{
+      margin-top: 100px;
+
       .main-title{
         text-align: center;
         font-size: 5.5rem;
         font-weight: 700;
         margin-bottom: 50px;
-
+        @media (max-width: 768px){
+          font-size: 2.25rem;
+        }
         .ih-blue{
           color: #003CF3;
         }
@@ -83,6 +139,9 @@ body.about{
     p{
       text-align: center;
       font-size: 1.5rem;
+      @media (max-width: 768px){
+        font-size: 1rem;
+      }
     }
     button{
       cursor: pointer;
@@ -94,13 +153,22 @@ body.about{
       border-radius: 15px;
       padding-top: 15px;
       padding-bottom: 15px;
-      margin-top: 2.5vh;
       color: white;
+      display: block;
+      margin: 75px auto 125px;
 
+      @media (max-width: 768px){
+        font-size: 1.25rem;
+      }
       &:hover, &:active{
         background-color: darken(#003CF3, 2.5%);
         text-decoration: underline;
       }
+    }
+    .top-ih, .bottom-ih{
+      display: block;
+      margin: auto;
+      height: 20px;
     }
   }
 
@@ -117,10 +185,71 @@ body.about{
         font-size: 5.5rem;
         font-weight: 700;
         margin-bottom: 50px;
+
+        @media (max-width: 768px){
+          font-size: 3rem;
+        }
       }
     }
     p{
       font-size: 1.5rem;
+
+      @media (max-width: 768px){
+        font-size: 1.25rem;
+      }
+      &.privacy{
+        font-size: 1.25rem;
+        color: #58595B;
+
+        @media (max-width: 768px){
+          font-size: 1rem;
+        }
+      }
+    }
+    .form-wrapper{
+      margin-bottom: 35px;
+      margin-top: 50px;
+
+      .mc4wp-form{
+        width: 100%;
+      }
+      input[type="email"].form-control{
+        background: #F1F2F2;
+        border-radius: 20px;
+        padding: 22.5px;
+        color: #58595B;
+
+        &:hover, &:active, &:focus, &:visited{
+          border-color: #fe1211 !important;
+        }
+      }
+      input[type="submit"]{
+        cursor: pointer;
+        background-color: #fe1211;
+        font-size: 1.75rem;
+        font-weight: 700;
+        padding: 17.5px 20%;
+        border-radius: 15px;
+        /* margin: 25px auto; */
+        display: block;
+        border-radius: 20px;
+
+        @media (max-width: 768px){
+          font-size: 1.25rem;
+          padding: 22.5px 20%;
+        }
+        @media (max-width: 576px){
+          margin-top: 35px;
+        }
+        @media (min-width: 992px){
+          font-size: 1.5rem;
+          padding: 20px 17.5%;
+        }
+        &:hover, &:active{
+          background-color: darken(#FE1211, 2.5%);
+          text-decoration: underline;
+        }
+      }
     }
   }
 }
