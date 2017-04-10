@@ -17,4 +17,18 @@
 @import "layouts/tinymce";
 
 @import "custom/home";
+@import "custom/about";
 
+body::-webkit-scrollbar {
+  width: 7.5px;
+}
+
+body::-webkit-scrollbar-track {
+  border-right: 2.5px solid grey;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: white;
+  border: 1px solid red;
+  height: 10px;
+}

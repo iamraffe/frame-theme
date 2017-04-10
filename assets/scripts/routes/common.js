@@ -5,7 +5,7 @@ export default {
       $(document).on('click', '#app-store-trigger', () => {
         window.open("http://google.com", '_blank' )
       });
-      $(document).on('click', '#copy-trigger', () => {
+      $(document).on('click', '#copy-trigger, #ih-trigger', () => {
         window.open("http://weareinhouse.com", '_blank' )
       });
     });

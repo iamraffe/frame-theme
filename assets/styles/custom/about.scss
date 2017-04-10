@@ -1,0 +1,126 @@
+body.about{
+
+  /*
+
+  HEADER - SECTION A
+
+  */
+  .section-a{
+    height: 50vh;
+    padding-top: 10vh;
+    margin-top: 0px;
+    background: url('https://lh4.googleusercontent.com/3XVhnoERHLC2UIKuDcEq6Tpcr1TTPwlRWv5YUaF-ZyS_cRPlsQR19HsIPyUjf7num8mG2ko7uskH5xs=w3352-h1860-rw');
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: 0px 150px;
+
+    .main-title{
+      font-size: 5.5rem;
+      font-weight: bold;
+      letter-spacing: -2.5px;
+    }
+  }
+
+  /*
+
+  SECTION B, SECTION C, SECTION D
+
+  */
+  .section-b, .section-d{
+    img.iphone-preview{
+      float: right;
+    }
+  }
+  .section-b, .section-c, .section-d{
+    margin-bottom: 100px;
+
+    header{
+
+      img{
+        height: 100px;
+        margin-bottom: 35px;
+        margin-top: 50px;
+      }
+      h1{
+        font-size: 3rem;
+        margin-bottom: 15px;
+      }
+      p{
+        font-size: 1.25rem;
+      }
+    }
+
+    img.iphone-preview{
+      width: 325px;
+    }
+  }
+
+  /*
+
+  SECTION E
+
+  */
+  .section-e{
+    margin-top: 50px;
+
+    header{
+      .main-title{
+        text-align: center;
+        font-size: 5.5rem;
+        font-weight: 700;
+        margin-bottom: 50px;
+
+        .ih-blue{
+          color: #003CF3;
+        }
+      }
+    }
+    .ih-logo{
+      display: block;
+      margin: 25px auto 50px;
+      height: 150px;
+    }
+    p{
+      text-align: center;
+      font-size: 1.5rem;
+    }
+    button{
+      cursor: pointer;
+      background-color: #003CF3;
+      font-size: 1.75rem;
+      font-weight: bold;
+      padding-left: 5%;
+      padding-right: 5%;
+      border-radius: 15px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      margin-top: 2.5vh;
+      color: white;
+
+      &:hover, &:active{
+        background-color: darken(#003CF3, 2.5%);
+        text-decoration: underline;
+      }
+    }
+  }
+
+  /*
+
+  SECTION F
+
+  */
+  .section-f{
+    margin-top: 75px;
+
+    header{
+      .main-title{
+        font-size: 5.5rem;
+        font-weight: 700;
+        margin-bottom: 50px;
+      }
+    }
+    p{
+      font-size: 1.5rem;
+    }
+  }
+}
