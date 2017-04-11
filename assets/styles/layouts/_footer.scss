@@ -57,4 +57,14 @@ footer.main-footer{
       display: none;
     }
   }
+  .mobile-social-links{
+    img{
+      height: 30px;
+      margin-right: 5px;
+
+      &.twitter{
+        margin-right: 0;
+      }
+    }
+  }
 }

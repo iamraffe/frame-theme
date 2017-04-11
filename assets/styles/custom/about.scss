@@ -1,8 +1,8 @@
 body.about{
   .content{
     @media (max-width: 576px){
-      padding-left: 2.5%;
-      padding-right: 2.5%;
+      // padding-left: 2.5%;
+      // padding-right: 2.5%;
     }
   }
 
@@ -22,8 +22,9 @@ body.about{
     margin-bottom: 12.5vh;
 
     @media (max-width: 768px){
-      background-size: 125%;
-      min-height: 25vh;
+      background-size: contain !important;
+      min-height: 22.5vh;
+      background: url('https://www.tryfra.me/wp-content/uploads/2017/04/about-mobile-1.jpg');
     }
 
 
