@@ -6,6 +6,10 @@ body.about{
     }
   }
 
+  section.about{
+    overflow-x: hidden;
+  }
+
   /*
 
   HEADER - SECTION A
@@ -21,10 +25,14 @@ body.about{
     background-position: 0px 150px;
     margin-bottom: 12.5vh;
 
-    @media (max-width: 768px){
+    @media (max-width: 576px){
       background-size: contain !important;
-      min-height: 22.5vh;
       background: url('https://www.tryfra.me/wp-content/uploads/2017/04/about-mobile-1.jpg');
+    }
+    @media (max-width: 768px){
+      // background-size: cover !important;
+      min-height: 22.5vh;
+
     }
 
 
@@ -84,9 +92,13 @@ body.about{
     img.iphone-preview{
       width: 325px;
       max-width: 100%;
+      background-color: white !important;
+
       @media (max-width: 576px){
         float: none;
-        display: block; margin: 25px auto;
+        display: block;
+        margin: 25px auto;
+        padding: 10%;
       }
       @media (max-width: 576px){
         &.not-mobile{
@@ -108,6 +120,76 @@ body.about{
     }
   }
 
+  .section-b{
+    position: relative;
+
+    .zigzag-decoration{
+      position: absolute;
+      bottom: -15%;
+      right: 17.5%;
+      height: 15px;
+
+      @media (max-width: 768px){
+        right: -10px;
+      }
+    }
+    .circle-decoration{
+      left: -75px;
+      width: 150px;
+      bottom: 0;
+      position: absolute;
+
+      @media (max-width: 768px){
+        left: -110px;
+      }
+    }
+    .triangle-decoration{
+      right: 5%;
+      height: 50px;
+      top: 30%;
+      position: absolute;
+
+      @media (max-width: 768px){
+        right: -12.5px;
+      }
+
+    }
+  }
+
+  .section-c{
+    position: relative;
+
+    .down-caret-decoration{
+      width: 25px;
+      position: absolute;
+      left: 5%;
+      bottom: 30%;
+    }
+    .square-decoration{
+      height: 35px;
+      position: absolute;
+      right: 7.5%;
+      bottom: 0;
+    }
+  }
+
+  .section-d{
+    position: relative;
+
+    .side-caret-decoration{
+      height: 25px;
+      position: absolute;
+      left: 5%;
+      bottom: 2.5%;
+    }
+    .zigzag-decoration{
+      height: 15px;
+      position: absolute;
+      left: 2.5%;
+      top: 2.5%;
+    }
+  }
+
   /*
 
   SECTION E
@@ -115,7 +197,52 @@ body.about{
   */
   .section-e{
     margin-top: 50px;
+    position: relative;
+    // overflow-x: hidden;
 
+    .polygon-decoration{
+      left: -75px;
+      width: 150px;
+      top: 30%;
+      position: absolute;
+
+      @media (max-width: 768px){
+        display: none;
+      }
+    }
+    .circle-decoration{
+      right: -75px;
+      width: 150px;
+      top: -10%;
+      position: absolute;
+
+      @media (max-width: 768px){
+        right: -100px;
+        top: 5%;
+      }
+    }
+    .triangle-decoration{
+      height: 50px;
+      right: 10%;
+      position: absolute;
+      top: 2.5%;
+
+      @media (max-width: 768px){
+        top: 40%;
+        right: -12.5px;
+      }
+    }
+    .square-decoration{
+      height: 35px;
+      right: 5%;
+      position: absolute;
+      top: 10%;
+
+      @media (max-width: 768px){
+        top: 40%;
+        left: -10px;
+      }
+    }
     header{
       margin-top: 100px;
 
@@ -125,7 +252,7 @@ body.about{
         font-weight: 700;
         margin-bottom: 50px;
         @media (max-width: 768px){
-          font-size: 2.25rem;
+          font-size: 2rem;
         }
         .ih-blue{
           color: #003CF3;
@@ -180,7 +307,18 @@ body.about{
   */
   .section-f{
     margin-top: 75px;
+    position: relative;
 
+    .zigzag-decoration{
+      height: 12.5px;
+      position: absolute;
+      top: 10%;
+      right: 15%;
+
+      @media (max-width: 768px){
+        display: none;
+      }
+    }
     header{
       .main-title{
         font-size: 5.5rem;
