@@ -15,7 +15,7 @@
       <header class="col-md-6 offset-md-1 col-lg-5 offset-lg-2">
         <img src="https://www.tryfra.me/wp-content/uploads/2017/04/meh.png" alt="Take that first shot">
         <h1>When you<br>open <strong>FRAME,</strong></h1>
-        <p>take that first shot. A transparent overlay of the<br>image will appear.</p>
+        <p>take that first shot. A transparent overlay of the image will appear.</p>
       </header>
       <div class="col-md-4 col-lg-3">
         <img class="iphone-preview" src="https://www.tryfra.me/wp-content/uploads/2017/04/iphone-first.png" alt="iPhone Preview (First Shot)">
@@ -44,7 +44,7 @@
       <header class="col-md-6 offset-md-1 col-lg-5 offset-lg-2">
         <img src="https://www.tryfra.me/wp-content/uploads/2017/04/ahu.png" alt="The Result!">
         <h1>The <strong>result?</strong></h1>
-        <p>A high-quality animation any content perfectionist<br>could be proud of.</p>
+        <p>A high-quality animation any content perfectionist could be proud of.</p>
       </header>
       <div class="col-lg-3 col-md-4">
         <img class="iphone-preview" src="https://www.tryfra.me/wp-content/uploads/2017/04/iphone-result.png" alt="iPhone Preview (Result)">

@@ -2,12 +2,8 @@ import $ from 'jquery';
 
 export default {
   init() {
-    // JavaScript to be fired on the home page
-    // document.getElementById('main-title').style.background = "red"
     $(document).ready(function(){
       var mouseX, mouseY;
-      // var ww = $( window ).width();
-      // var wh = $( window ).height();
       var traX, traY;
       $(document).mousemove(function(e){
         mouseX = e.pageX;
@@ -18,17 +14,18 @@ export default {
         $("#main-title").css({"background-position": traX + "%" + traY + "%"});
       });
 
-      // $(document).scroll(function(e){
-      //   mouseX = e.pageX;
-      //   mouseY = e.pageY;
-      //   traX = ((4 * mouseX) / 570) + 40;
-      //   traY = ((4 * mouseY) / 570) + 50;
-      //   // console.log(traX);
-      //   $("body.home").css({"background-position": traX + "%" + traY + "%"});
-      // });
+      $(document).on('click', '.wpme_image > a', (e) => {
+        e.preventDefault();
+      });
+
+      // _.each(document.querySelectorAll('.wp-post-image'), (img) => {
+      //   let src = img.getAttribute('src')
+      //   img.setAttribute('height', '1000')
+      //   img.setAttribute('src', src.replace("-300x228", ""))
+      // })
     });
   },
   finalize() {
-    // JavaScript to be fired on the home page, after the init JS
+
   },
 };

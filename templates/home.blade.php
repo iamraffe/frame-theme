@@ -19,7 +19,6 @@
     </header>
     <section class="row section-b">
       <div class="col-md-10 offset-md-1 masonry-wrapper">
-        <div class="masonry-overlay"></div>
         {!! do_shortcode("[wmls name='Frame Section A Grid' id='1']") !!}
       </div>
     </section>
