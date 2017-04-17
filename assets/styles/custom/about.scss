@@ -25,6 +25,10 @@ body.about{
     background-position: 0px 150px;
     margin-bottom: 12.5vh;
 
+    @media (max-width: 768px){
+      margin-bottom: 50px;
+    }
+
     @media (max-width: 576px){
       background-size: contain !important;
       background: url('https://www.tryfra.me/wp-content/uploads/2017/04/about-mobile-1.jpg');
@@ -59,6 +63,10 @@ body.about{
   }
   .section-b, .section-c, .section-d{
     margin-bottom: 100px;
+
+    @media (max-width: 768px){
+      margin-bottom: 50px;
+    }
 
     header{
 
@@ -200,6 +208,11 @@ body.about{
     position: relative;
     // overflow-x: hidden;
 
+    @media (max-width: 768px){
+      margin-bottom: 50px;
+      margin-top: 0;
+    }
+
     .polygon-decoration{
       left: -75px;
       width: 150px;
@@ -245,6 +258,10 @@ body.about{
     }
     header{
       margin-top: 100px;
+
+      @media (max-width: 768px){
+        margin-bottom: 50px;
+      }
 
       .main-title{
         text-align: center;
@@ -308,6 +325,12 @@ body.about{
   .section-f{
     margin-top: 75px;
     position: relative;
+
+    @media (max-width: 768px){
+      margin-bottom: 50px;
+      margin-top: 0;
+    }
+
 
     .zigzag-decoration{
       height: 12.5px;

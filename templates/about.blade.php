@@ -84,7 +84,7 @@
         <div class="form-wrapper">
           {!! do_shortcode("[mc4wp_form id='128']") !!}
         </div>
-        <p class="privacy">We "respect" your privacy.</p>
+        <p class="privacy">We respect your privacy.</p>
       </div>
     </section>
   </section>

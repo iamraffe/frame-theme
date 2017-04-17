@@ -89,6 +89,12 @@ body.home{
         margin: 25px auto;
         display: block;
 
+        @media (max-width: 768px){
+          font-size: 1.25rem;
+          padding-left: 10%;
+          padding-right: 10%;
+        }
+
         &:hover, &:active{
           background-color: darken(#FE1211, 2.5%);
           text-decoration: underline;
