@@ -26,7 +26,7 @@
     </section>
     <section class="row section-c">
       <div class="col-md-4 col-lg-3 offset-lg-2 offset-md-1">
-        <img class="iphone-preview not-mobile" src="https://www.tryfra.me/wp-content/uploads/2017/04/ghost.gif" alt="iPhone Preview (Ghost Feature)">
+        <img class="iphone-preview not-mobile" src="https://www.tryfra.me/wp-content/uploads/2017/04/ezgif-3-3bd418edf9.gif" alt="iPhone Preview (Ghost Feature)">
       </div>
       <header class="col-md-6 col-lg-5">
         <img src="https://www.tryfra.me/wp-content/uploads/2017/04/ah.png" alt="Use ghost!">
@@ -34,7 +34,7 @@
         <p>you can easily align the size and position of your subject for the next frame. Continue taking snapshots, until you’ve captured your storyboard. Then, export your frames directly from the app into a gif, mp4, mov—whatever floats your file boat.</p>
       </header>
       <div class="col">
-        <img class="iphone-preview mobile" src="https://www.tryfra.me/wp-content/uploads/2017/04/ghost.gif" alt="iPhone Preview (Ghost Feature)">
+        <img class="iphone-preview mobile" src="https://www.tryfra.me/wp-content/uploads/2017/04/ezgif-3-3bd418edf9.gif" alt="iPhone Preview (Ghost Feature)">
       </div>
       <img src="https://www.tryfra.me/wp-content/uploads/2017/04/rect-section-b.png" alt="This is a decorative square" class="square-decoration">
       <img src="https://www.tryfra.me/wp-content/uploads/2017/04/down-caret-b.png" alt="This is a decorative caret" class="down-caret-decoration">
@@ -47,7 +47,7 @@
         <p>A high-quality animation any content perfectionist could be proud of.</p>
       </header>
       <div class="col-lg-3 col-md-4">
-        <img class="iphone-preview" src="https://www.tryfra.me/wp-content/uploads/2017/04/drawing.gif" alt="iPhone Preview (Result)">
+        <img class="iphone-preview" src="https://www.tryfra.me/wp-content/uploads/2017/04/ezgif-3-52cb162301.gif" alt="iPhone Preview (Result)">
       </div>
       <img src="https://www.tryfra.me/wp-content/uploads/2017/04/side-triangle-section-d.png" alt="This is just some decorative image, pay no attention" class="side-caret-decoration">
     </section>
@@ -67,6 +67,7 @@
         <img class="ih-logo" src="http://www.weareinhouse.com/wp-content/themes/inHouse2/dist/images/full_logo.png" alt="In-House Logo">
         <p>Based in Austin, Texas, we’re a ragtag group of illustrators, branding nerds and UI/UX folk who think the world could use better design.</p>
         <p>We also like to solve problems and control for quality (hence Frame).</p>
+        <p>Need customer support? Want to report a broken feature? Email <a href="mailto:hello@weareinhouse.com">hello@weareinhouse.com</a>.</p>
         <button id="ih-trigger" class="btn btn-lg learn-more">Learn more about us</button>
       </div>
       <div class="w-100"></div>

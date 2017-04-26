@@ -26,6 +26,21 @@ export default {
     });
   },
   finalize() {
+    // document.addEventListener("DOMContentLoaded", function() {
+    //   window.addEventListener('load', function(){
+    //       changeImageSrc()
+    //   }, false)
+    // });
 
+
+    // // $( window ).load(function() {
+    //   $('.attachment-thumbnail.wp-post-image').ready(function(){
+    //     /* eslint-disable no-console */
+    //     console.log($(this), $(this).parent().attr('data-full-img'))
+    //     /* eslint-enable no-console */
+    //     // let src = $(this).attr('src')
+    //     // $(this).attr('src', src.replace("-150x150", ""))
+    //   })
+    // // });
   },
 };
